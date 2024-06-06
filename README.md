@@ -1,5 +1,5 @@
 ## Otto Stoklunds officielle Obsidian Second Brain Template.
-<img src="https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/ecf508ff-86a6-4123-a664-7d5143d85106" width="700" height="400">
+![image](https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/ecf508ff-86a6-4123-a664-7d5143d85106)
 
 ### De tilføjet funktioner er:
 1. En Homepage med alt hvad man skal bruge
