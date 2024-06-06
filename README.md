@@ -1,6 +1,5 @@
 ## Otto Stoklunds officielle Obsidian Second Brain Template.
-
-![image](https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/ecf508ff-86a6-4123-a664-7d5143d85106 | 100)
+<img src="[https://your-image-url.type](https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/ecf508ff-86a6-4123-a664-7d5143d85106)" width="100" height="100">
 
 ### De tilføjet funktioner er:
 1. En Homepage med alt hvad man skal bruge
@@ -12,8 +11,10 @@
 ### Sådan starter du:**
 1. Download Obsidian fra https://obsidian.md/download
 2. Download Zip filen for templaten
+  <img src="[https://your-image-url.type](https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/57e89d4b-ad20-4f18-b1bd-f70302646fc7)" width="100" height="100">
   ![image](https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/57e89d4b-ad20-4f18-b1bd-f70302646fc7 | width=100)
-3. Udpak filen det sted på din computer eller cloud du vil have den
-4. Åben vaulten
+4. Udpak filen det sted på din computer eller cloud du vil have den
+5. Åben vaulten
+  <img src="[https://your-image-url.type](https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/3a0b821e-62f0-4688-a04f-6966c1bf3456)" width="100" height="100">
   ![image](https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/3a0b821e-62f0-4688-a04f-6966c1bf3456 | width=100)
-5. Læs "How to obsidian".
+6. Læs "How to obsidian".
