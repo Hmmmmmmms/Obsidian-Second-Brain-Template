@@ -1,0 +1,251 @@
+{
+  "main": {
+    "id": "da1e0a5c1568ffbd",
+    "type": "split",
+    "children": [
+      {
+        "id": "658597f30d0b26a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd5b43b87b177234",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Plugins/Homepage.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "860ac9b33ae1dc24",
+    "type": "split",
+    "children": [
+      {
+        "id": "70516fadddb57132",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a5d9e7b33724d0c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a1eb36a2620f8598",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "895599ba830f5e28",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 227.5
+  },
+  "right": {
+    "id": "35f65674dfd9d00b",
+    "type": "split",
+    "children": [
+      {
+        "id": "b936098abff2f135",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea66b73222b75990",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Plugins/Homepage.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b2dc9a8c3ff37043",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Plugins/Homepage.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bff3dbce6ec35a6e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3487d30fb440b8d5",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Plugins/Homepage.md"
+              }
+            }
+          },
+          {
+            "id": "1fa29eb8e236e77a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "9a3c960e5fc67ff5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Plugins/Homepage.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "ede4e8183a2cbe63",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd72cbb0aa9b8253",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 275.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "hide-folders:Show hidden folders": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "daily-notes:Open today's daily note": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false,
+      "omnisearch:Omnisearch": false,
+      "dbfolder:Create a new database table": false,
+      "obsidian-media-db-plugin:Add new Media DB entry": false,
+      "obsidian-read-it-later:ReadItLater: Save clipboard": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "dd5b43b87b177234",
+  "lastOpenFiles": [
+    "Obsidian-Second-Brain-Template",
+    "Databases/Media/Youtube - RECREATING My Todoist Workflow - How I Use Todoist.md",
+    "Plugins/Homepage.md",
+    "How to Obsidian.md",
+    "Attachment/Pasted image 20240605154815.png",
+    "Rolodex/Rolodex.md",
+    "Attachment/Pasted image 20240605154726.png",
+    "Attachment/Pasted image 20240605154700.png",
+    "Rolodex/Bob Bobbison.md",
+    "Templates/Template Rolodex entry.md",
+    "Journal/Daily Note/Daily Note 05-06-2024.md",
+    "Attachment/Pasted image 20240605154150.png",
+    "Rolodex",
+    "Zettelizer boks/Advanced tables.md",
+    "Long Term Storage",
+    "Zettelizer boks/Hide folders.md",
+    "Zettelizer boks/DB Folder.md",
+    "Zettelizer boks/Calender.md",
+    "Zettelizer boks/Kontakt mig for hjælp med din vault.md",
+    "Zettelizer boks/Fiks up the ugly ribbon menu.md",
+    "Zettelizer boks/Social media manager eller andre projects manager - Projects plugin.md",
+    "Zettelizer boks/AI i dine noter.md",
+    "Zettelizer boks/Remotely Save(Onedrive dropbox Google Drive).md",
+    "Zettelizer boks/Gratis Icloud Sync eller Obsidian betalt Sync.md",
+    "Zettelizer boks/Buttons.md",
+    "Zettelizer boks/Banner.md",
+    "Zettelizer boks/Omnisearch.md",
+    "Zettelizer boks/Excalidraw.md",
+    "Zettelizer boks/Templater.md",
+    "Zettelizer boks/Dataview.md",
+    "Zettelizer boks/ReadItLater.md",
+    "Zettelizer boks/Waypoint.md",
+    "Zettelizer boks",
+    "Plugins/Scripts/zettelizer scriptH3.js",
+    "Plugins/Scripts/zettelizer scriptH2 - Copy.js",
+    "Plugins/Scripts/zettelizer scriptH2.js",
+    "Plugins/Scripts/zettelizer script.js",
+    "Plugins/Scripts",
+    "Attachment/Pasted image 20240605150036.png",
+    "Attachment/Sexy man.png",
+    "Attachment/Pasted image 20240605144237.png",
+    "Attachment/Pasted image 20240605142331.png",
+    "Attachment/Pasted image 20240605142330.png",
+    "Attachment/Pasted image 20240605141954.png",
+    "Excalidraw",
+    "Untitled.canvas",
+    "Zettelkasten/Media",
+    "Untitled 1.canvas"
+  ]
+}

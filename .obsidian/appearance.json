@@ -1,0 +1,11 @@
+{
+  "accentColor": "",
+  "baseFontSize": 16,
+  "cssTheme": "GitHub Theme",
+  "enabledCssSnippets": [
+    "dashboard",
+    "dashboard-readlinelength",
+    "PDF export with defualt theme"
+  ],
+  "theme": "system"
+}

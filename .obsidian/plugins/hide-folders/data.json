@@ -1,0 +1,12 @@
+{
+  "areFoldersHidden": true,
+  "matchCaseInsensitive": true,
+  "addHiddenFoldersToObsidianIgnoreList": false,
+  "enableCompatQuickExplorer": false,
+  "attachmentFolderNames": [
+    "Excalidraw",
+    "Templates",
+    "Plugins",
+    "Attachment"
+  ]
+}

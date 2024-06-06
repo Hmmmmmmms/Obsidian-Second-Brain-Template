@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Databases/Books  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "path:\"Databases/Movies and Series\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
+    },
+    {
+      "query": "path:Databases/Media  ",
+      "color": {
+        "a": 1,
+        "rgb": 6063574
+      }
+    },
+    {
+      "query": "path:Journal ",
+      "color": {
+        "a": 1,
+        "rgb": 14071388
+      }
+    },
+    {
+      "query": "path:Templates  ",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
+    },
+    {
+      "query": "tag:#MoC",
+      "color": {
+        "a": 1,
+        "rgb": 16751089
+      }
+    },
+    {
+      "query": "tag:#database  ",
+      "color": {
+        "a": 1,
+        "rgb": 16663525
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.513102213541667,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.8526855937776942,
+  "close": false
+}

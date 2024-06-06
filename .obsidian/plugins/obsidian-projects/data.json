@@ -1,0 +1,293 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "Backlog",
+            "Scripting",
+            "Ready to film",
+            "Editing",
+            "Ready to publish"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "Templates/Template Reel video.md",
+        "Templates/Template Youtube video.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Zettelkasten/Social media/Videoer",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "Zettelkasten/Social media/Videoer",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "published",
+              "status",
+              "due",
+              "topic",
+              "Reference"
+            ],
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "tags": {
+                "hide": true
+              },
+              "Thumbnail": {
+                "hide": true
+              },
+              "aliases": {
+                "hide": true
+              },
+              "name": {
+                "width": 376
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#fdff80",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"Otto\",\"otto\"]"
+                }
+              },
+              {
+                "color": "#fe3e3e",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"Rumindustrien\"]"
+                }
+              },
+              {
+                "color": "#ff00c8",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"Youtube\"]"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "due",
+                "order": "desc",
+                "enabled": true
+              },
+              {
+                "field": "tags",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "f76e2c45-7fce-4cf2-afd2-e1ca6a205a41",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "includeFields": [
+              "due",
+              "published"
+            ],
+            "columns": {
+              "backlog": {
+                "weight": 0,
+                "records": [
+                  "Zettelkasten/Social media/Videoer/Reel - Otto - en ting af gangen, en vane af gangen.md"
+                ]
+              },
+              "Scripting": {
+                "weight": 1
+              },
+              "Ready to film": {
+                "weight": 2,
+                "records": [
+                  "Zettelkasten/Social media/Videoer/Reel - RI - SpaceX's IFT-4 test.md"
+                ]
+              },
+              "Editing": {
+                "weight": 3
+              },
+              "Ready to publish": {
+                "weight": 4
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#ffe74d",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"Reel\"]"
+                }
+              },
+              {
+                "color": "#ff00dd",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"Youtube\"]"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "due",
+                "order": "asc",
+                "enabled": true
+              },
+              {
+                "field": "status",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "2040ab67-5830-4f13-bfb9-b1b43d476d2f",
+          "name": "VIdeo progress board",
+          "type": "board"
+        },
+        {
+          "config": {
+            "checkField": "published",
+            "interval": "month"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"Reel\"]"
+                }
+              },
+              {
+                "color": "#ff00bb",
+                "condition": {
+                  "field": "tags",
+                  "operator": "has-any-of",
+                  "enabled": true,
+                  "value": "[\"Youtube\"]"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "ab04b8b3-b251-4e8d-aa68-e101faa74eff",
+          "name": "Content Calender",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "coverField": "Thumbnail",
+            "includeFields": [
+              "due"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "88455066-d893-4890-b1e3-d3621f0e3388",
+          "name": "Youtube Videos gallary",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "published": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "Thumbnail": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "published",
+                "operator": "is-checked",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a6a14fb6-1ac9-455d-843f-14532b5c0841",
+          "name": "Published vids",
+          "type": "table"
+        }
+      ],
+      "id": "4f5f1fd0-2d37-4ff3-80fc-98b58f631d05",
+      "name": "Social Media Video Manager"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 100,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}
