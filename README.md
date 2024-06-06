@@ -1,5 +1,5 @@
 # Her er min officielle Obsidian Second Brain Template. De tilføjet funktioner er:
-![image|300](https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/ecf508ff-86a6-4123-a664-7d5143d85106)
+![image](https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/ecf508ff-86a6-4123-a664-7d5143d85106)
 
 1. En Homepage med alt hvad man skal bruge
 2. Et Journal setup som er let at vedligeholde og få værdi af
@@ -10,8 +10,8 @@
 Sådan starter du:
 1. Download Obsidian fra https://obsidian.md/download
 2. Download Zip filen for templaten
-  ![image|200](https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/57e89d4b-ad20-4f18-b1bd-f70302646fc7)
+  ![image](https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/57e89d4b-ad20-4f18-b1bd-f70302646fc7)
 3. Udpak filen det sted på din computer eller cloud du vil have den
 4. Åben vaulten
-  ![image|200](https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/3a0b821e-62f0-4688-a04f-6966c1bf3456)
+  ![image](https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/3a0b821e-62f0-4688-a04f-6966c1bf3456)
 5. Læs "How to obsidian".
