@@ -11,8 +11,12 @@
 ### Sådan starter du:**
 1. Download Obsidian fra https://obsidian.md/download
 2. Download Zip filen for templaten
+\\
   <img src="https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/57e89d4b-ad20-4f18-b1bd-f70302646fc7" width="500" height="300">
+\\
 4. Udpak filen det sted på din computer eller cloud du vil have den
 5. Åben vaulten
+\\
   <img src="https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/3a0b821e-62f0-4688-a04f-6966c1bf3456" width="400" height="300">
-6. Læs "How to obsidian".
+\\
+7. Læs "How to obsidian".
