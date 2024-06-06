@@ -7,7 +7,9 @@ Her er min officielle Obsidian Second Brain Template. De tilføjet funktioner er
 
 Sådan starter du:
 1. Download Obsidian fra https://obsidian.md/download
-2. Skab en ny vault.
-3. Gå ned i venstre hjørne i settings -> community plugins -> turn on community plugins -> browse -> installer og enable "Git"
-4. Download git til din pc https://www.git-scm.com/downloads
-5. Følg denne video for resten https://www.youtube.com/watch?v=5YZz38U20ws&ab_channel=FleetingNotes
+2. Download Zip filen for templaten
+  ![image](https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/57e89d4b-ad20-4f18-b1bd-f70302646fc7)
+3. Udpak filen det sted på din computer eller cloud du vil have den
+4. Åben vaulten
+  ![image](https://github.com/Hmmmmmmms/Obsidian-Second-Brain-Template/assets/152342474/3a0b821e-62f0-4688-a04f-6966c1bf3456)
+5. Læs "How to obsidian".
