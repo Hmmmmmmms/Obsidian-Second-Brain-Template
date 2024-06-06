@@ -21,8 +21,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "e7fce5afed01903b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rolodex/Rolodex.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Plugins/Homepage.md",
+                "file": "Rolodex/Rolodex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Plugins/Homepage.md",
+                "file": "Rolodex/Rolodex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +142,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Plugins/Homepage.md"
+                "file": "Rolodex/Rolodex.md"
               }
             }
           },
@@ -150,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Plugins/Homepage.md"
+                "file": "Rolodex/Rolodex.md"
               }
             }
           }
@@ -197,12 +211,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dd5b43b87b177234",
+  "active": "e7fce5afed01903b",
   "lastOpenFiles": [
+    "How to Obsidian.md",
+    "Databases/Media/Youtube - The Easiest Way to Setup Obsidian Git (4 Minutes).md",
+    "Plugins/Homepage.md",
     "Obsidian-Second-Brain-Template",
     "Databases/Media/Youtube - RECREATING My Todoist Workflow - How I Use Todoist.md",
-    "Plugins/Homepage.md",
-    "How to Obsidian.md",
     "Attachment/Pasted image 20240605154815.png",
     "Rolodex/Rolodex.md",
     "Attachment/Pasted image 20240605154726.png",
@@ -245,7 +260,6 @@
     "Attachment/Pasted image 20240605141954.png",
     "Excalidraw",
     "Untitled.canvas",
-    "Zettelkasten/Media",
     "Untitled 1.canvas"
   ]
 }

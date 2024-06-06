@@ -240,7 +240,7 @@ Den er allerede downloaded på den her vault (Settings -> community plugins -> r
 5. For at sync skal du så bare trykke på iconet ovre til venstre ![[Pasted image 20240605141954.png|100]] eller så bare søg på "Remotely save: start sync" i command palette 
 
 #### Kritiske plugins på telefon (15-30 min setup time)
-Efter du har synkroniseret med enten icloud sync eller remotely save så hvis du gerne vil opsætte din vault på din telefon så fungerer det udemærket for mig hvis jeg bare installerer disse plugins og manuelt indstiller dem (Husk også at køre igennem alle andre settings)
+Efter du har synkroniseret med enten icloud sync(Min ven sagde at plugins måske faktisk følger med over icloud alligevel) eller remotely save så hvis du gerne vil opsætte din vault på din telefon så fungerer det udemærket for mig hvis jeg bare installerer disse plugins og manuelt indstiller dem (Husk også at køre igennem alle andre settings)
 ![[Pasted image 20240605142331.png|100]]
 og prøv at skrive det samme i alle sammen
 De plugins der er kritiske for den her vault er
