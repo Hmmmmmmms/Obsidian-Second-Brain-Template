@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "658597f30d0b26a1",
+        "id": "089b8a88e96642b9",
         "type": "tabs",
         "children": [
           {
-            "id": "dd5b43b87b177234",
+            "id": "cf89c8f18139e4fd",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -21,22 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "e7fce5afed01903b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rolodex/Rolodex.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rolodex/Rolodex.md",
+                "file": "Plugins/Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rolodex/Rolodex.md",
+                "file": "Plugins/Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +128,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Rolodex/Rolodex.md"
+                "file": "Plugins/Homepage.md"
               }
             }
           },
@@ -164,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rolodex/Rolodex.md"
+                "file": "Plugins/Homepage.md"
               }
             }
           }
@@ -211,8 +197,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e7fce5afed01903b",
+  "active": "cf89c8f18139e4fd",
   "lastOpenFiles": [
+    "Rolodex/Rolodex.md",
     "README.md",
     "How to Obsidian.md",
     "Databases/Media/Youtube - The Easiest Way to Setup Obsidian Git (4 Minutes).md",
@@ -220,7 +207,6 @@
     "Obsidian-Second-Brain-Template",
     "Databases/Media/Youtube - RECREATING My Todoist Workflow - How I Use Todoist.md",
     "Attachment/Pasted image 20240605154815.png",
-    "Rolodex/Rolodex.md",
     "Attachment/Pasted image 20240605154726.png",
     "Attachment/Pasted image 20240605154700.png",
     "Rolodex/Bob Bobbison.md",

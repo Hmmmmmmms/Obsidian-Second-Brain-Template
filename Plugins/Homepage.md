@@ -21,11 +21,13 @@ The creator :): Otto Stoklund
 ```dataview 
 list WITHOUT ID link(file.link, aliases[0])
 FROM #MoC AND -"Templates"
+SORT file.mtime DESC
 ```
 ## Databases
 ```dataview 
 list 
 FROM #database AND -"Templates"
+SORT file.mtime DESC
 ```
 ## Recently opened
 `$=dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").limit(10).file.link)`
