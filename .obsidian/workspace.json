@@ -21,22 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "4e4f74274b835155",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "How to Obsidian.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How to Obsidian.md",
+                "file": "Plugins/Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "How to Obsidian.md",
+                "file": "Plugins/Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +128,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "How to Obsidian.md"
+                "file": "Plugins/Homepage.md"
               }
             }
           },
@@ -164,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "How to Obsidian.md"
+                "file": "Plugins/Homepage.md"
               }
             }
           }
@@ -211,8 +197,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7a5d9e7b33724d0c",
+  "active": "1bc27bc7f5896c34",
   "lastOpenFiles": [
+    "How to Obsidian.md",
+    "Journal/Weekly Note/Weekly Note W24-2024.md",
+    "Journal/Yearly Note/Yearly Note - 2024.md",
+    "Plugins/Homepage.md",
+    "Journal/Quarterly Note/Quarterly note - Q2 2024.md",
+    "Journal/Monthly Note/Monthly Note - Jun 2024.md",
+    "Journal/Daily Note/Daily Note 11-06-2024.md",
     "Journal/Yearly Note",
     "Journal/New folder",
     "Journal/Quarterly Note",
@@ -220,10 +213,8 @@
     "Journal/Weekly Note",
     "Journal/Daily Note",
     "Journal",
-    "Plugins/Homepage.md",
     "Rolodex/Rolodex.md",
     "README.md",
-    "How to Obsidian.md",
     "Databases/Media/Youtube - The Easiest Way to Setup Obsidian Git (4 Minutes).md",
     "Obsidian-Second-Brain-Template",
     "Databases/Media/Youtube - RECREATING My Todoist Workflow - How I Use Todoist.md",
@@ -248,11 +239,6 @@
     "Zettelizer boks/Gratis Icloud Sync eller Obsidian betalt Sync.md",
     "Zettelizer boks/Buttons.md",
     "Zettelizer boks/Banner.md",
-    "Zettelizer boks/Omnisearch.md",
-    "Zettelizer boks/Excalidraw.md",
-    "Zettelizer boks/Templater.md",
-    "Zettelizer boks/Dataview.md",
-    "Zettelizer boks",
     "Attachment/Pasted image 20240605150036.png",
     "Attachment/Sexy man.png",
     "Attachment/Pasted image 20240605144237.png",
