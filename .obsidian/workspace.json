@@ -211,8 +211,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4e4f74274b835155",
+  "active": "7a5d9e7b33724d0c",
   "lastOpenFiles": [
+    "Journal/Yearly Note",
+    "Journal/New folder",
+    "Journal/Quarterly Note",
+    "Journal/Monthly Note",
+    "Journal/Weekly Note",
+    "Journal/Daily Note",
+    "Journal",
     "Plugins/Homepage.md",
     "Rolodex/Rolodex.md",
     "README.md",
@@ -245,20 +252,13 @@
     "Zettelizer boks/Excalidraw.md",
     "Zettelizer boks/Templater.md",
     "Zettelizer boks/Dataview.md",
-    "Zettelizer boks/ReadItLater.md",
     "Zettelizer boks",
-    "Plugins/Scripts/zettelizer scriptH3.js",
-    "Plugins/Scripts/zettelizer scriptH2 - Copy.js",
-    "Plugins/Scripts/zettelizer scriptH2.js",
-    "Plugins/Scripts/zettelizer script.js",
-    "Plugins/Scripts",
     "Attachment/Pasted image 20240605150036.png",
     "Attachment/Sexy man.png",
     "Attachment/Pasted image 20240605144237.png",
     "Attachment/Pasted image 20240605142331.png",
     "Attachment/Pasted image 20240605142330.png",
     "Attachment/Pasted image 20240605141954.png",
-    "Excalidraw",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
