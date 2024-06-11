@@ -1,7 +1,7 @@
 ---
 Date: {{date}}
 ---
-Du spørger nok, hvordan virker skidtet. Så her kommer den lange smøre
+Du spørger nok, hvordan virker skidtet. Så her kommer den lange smøre.
 ## The basics
 En god artikel introduktion til hvorfor obsidian er god, hvordan man skriver i markdown, og også gode introduktioner til mere avanceret ting i obsidian
 https://obsidian.rocks/getting-started-with-obsidian-a-beginners-guide/

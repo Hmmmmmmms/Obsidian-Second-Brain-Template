@@ -21,8 +21,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "4e4f74274b835155",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "How to Obsidian.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Plugins/Homepage.md",
+                "file": "How to Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Plugins/Homepage.md",
+                "file": "How to Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +142,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Plugins/Homepage.md"
+                "file": "How to Obsidian.md"
               }
             }
           },
@@ -150,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Plugins/Homepage.md"
+                "file": "How to Obsidian.md"
               }
             }
           }
@@ -197,13 +211,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1bc27bc7f5896c34",
+  "active": "4e4f74274b835155",
   "lastOpenFiles": [
+    "Plugins/Homepage.md",
     "Rolodex/Rolodex.md",
     "README.md",
     "How to Obsidian.md",
     "Databases/Media/Youtube - The Easiest Way to Setup Obsidian Git (4 Minutes).md",
-    "Plugins/Homepage.md",
     "Obsidian-Second-Brain-Template",
     "Databases/Media/Youtube - RECREATING My Todoist Workflow - How I Use Todoist.md",
     "Attachment/Pasted image 20240605154815.png",
