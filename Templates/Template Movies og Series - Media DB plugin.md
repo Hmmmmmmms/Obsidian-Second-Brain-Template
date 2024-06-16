@@ -1,5 +1,5 @@
 ---
-title: {{title}}
+title: "{{title}}"
 premiere: {{premiere}}
 image: {{image}}
 dataSource: {{dataSource}}

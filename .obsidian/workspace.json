@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5cb3f12b2823f360",
+        "id": "d85d085d650522b7",
         "type": "tabs",
         "children": [
           {
-            "id": "1bc27bc7f5896c34",
+            "id": "ab4ff227a454c879",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -178,7 +178,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "hide-folders:Show hidden folders": false,
+      "hide-folders:Hide hidden folders again": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -197,12 +197,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1bc27bc7f5896c34",
+  "active": "ab4ff227a454c879",
   "lastOpenFiles": [
+    "Templates/Template Rolodex entry.md",
+    "Templates/Template Daily Note.md",
+    "Templates/Templater Change alias of file.md",
+    "Templates/Template Books - Media DB plugin.md",
+    "Templates/Template Movies og Series - Media DB plugin.md",
+    "Plugins/Homepage.md",
     "How to Obsidian.md",
+    "README.md",
     "Journal/Weekly Note/Weekly Note W24-2024.md",
     "Journal/Yearly Note/Yearly Note - 2024.md",
-    "Plugins/Homepage.md",
     "Journal/Quarterly Note/Quarterly note - Q2 2024.md",
     "Journal/Monthly Note/Monthly Note - Jun 2024.md",
     "Journal/Daily Note/Daily Note 11-06-2024.md",
@@ -214,7 +220,6 @@
     "Journal/Daily Note",
     "Journal",
     "Rolodex/Rolodex.md",
-    "README.md",
     "Databases/Media/Youtube - The Easiest Way to Setup Obsidian Git (4 Minutes).md",
     "Obsidian-Second-Brain-Template",
     "Databases/Media/Youtube - RECREATING My Todoist Workflow - How I Use Todoist.md",
@@ -222,7 +227,6 @@
     "Attachment/Pasted image 20240605154726.png",
     "Attachment/Pasted image 20240605154700.png",
     "Rolodex/Bob Bobbison.md",
-    "Templates/Template Rolodex entry.md",
     "Journal/Daily Note/Daily Note 05-06-2024.md",
     "Attachment/Pasted image 20240605154150.png",
     "Rolodex",
@@ -235,10 +239,6 @@
     "Zettelizer boks/Fiks up the ugly ribbon menu.md",
     "Zettelizer boks/Social media manager eller andre projects manager - Projects plugin.md",
     "Zettelizer boks/AI i dine noter.md",
-    "Zettelizer boks/Remotely Save(Onedrive dropbox Google Drive).md",
-    "Zettelizer boks/Gratis Icloud Sync eller Obsidian betalt Sync.md",
-    "Zettelizer boks/Buttons.md",
-    "Zettelizer boks/Banner.md",
     "Attachment/Pasted image 20240605150036.png",
     "Attachment/Sexy man.png",
     "Attachment/Pasted image 20240605144237.png",

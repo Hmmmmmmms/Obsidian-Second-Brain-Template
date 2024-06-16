@@ -1,7 +1,7 @@
 ---
 tags:
   - book
-title: {{title}}
+title: "{{title}}"
 author: {{ENUM:author}}
 publishdate: {{publishdate}}
 pages: {{totalPage}}
