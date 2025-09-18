@@ -16,6 +16,8 @@ The creator :): Otto Stoklund
 ## Journal
 ### `button-CurrentDailyNote`  `button-CurrentWeeklyNote`  `button-CurrentMonthlyNote` `button-CurrentQuarterlyNote` `button-CurrentYearlyNote`
 
+
+
 ----
 ## MoC's
 ```dataview 

@@ -1,13 +1,19 @@
 {
+  "disableDoubleClickTextEditing": false,
   "folder": "Excalidraw",
   "cropFolder": "",
   "annotateFolder": "",
   "embedUseExcalidrawFolder": false,
   "templateFilePath": "Excalidraw/Template.excalidraw",
   "scriptFolderPath": "Excalidraw/Scripts",
+  "fontAssetsPath": "Excalidraw/CJK Fonts",
+  "loadChineseFonts": false,
+  "loadJapaneseFonts": false,
+  "loadKoreanFonts": false,
   "compress": true,
   "decompressForMDView": false,
   "onceOffCompressFlagReset": true,
+  "onceOffGPTVersionReset": true,
   "autosave": true,
   "autosaveIntervalDesktop": 15000,
   "autosaveIntervalMobile": 10000,
@@ -16,16 +22,20 @@
   "drawingFilnameEmbedPostfix": " ",
   "drawingFilenameDateTime": "YYYY-MM-DD HH.mm.ss",
   "useExcalidrawExtension": true,
+  "cropSuffix": "",
   "cropPrefix": "cropped_",
+  "annotateSuffix": "",
   "annotatePrefix": "annotated_",
   "annotatePreserveSize": false,
   "previewImageType": "SVGIMG",
+  "renderingConcurrency": 3,
   "allowImageCache": true,
   "allowImageCacheInScene": true,
   "displayExportedImageIfAvailable": false,
   "previewMatchObsidianTheme": false,
   "width": "400",
   "height": "",
+  "overrideObsidianFontSize": false,
   "dynamicStyling": "colorful",
   "isLeftHanded": false,
   "iframeMatchExcalidrawTheme": true,
@@ -34,15 +44,21 @@
   "matchThemeTrigger": false,
   "defaultMode": "normal",
   "defaultPenMode": "never",
+  "penModeDoubleTapEraser": true,
+  "penModeSingleFingerPanning": true,
   "penModeCrosshairVisible": true,
+  "panWithRightMouseButton": false,
   "renderImageInMarkdownReadingMode": false,
   "renderImageInHoverPreviewForMDNotes": false,
   "renderImageInMarkdownToPDF": false,
-  "allowPinchZoom": false,
+  "allowPinchZoom": true,
   "allowWheelZoom": false,
   "zoomToFitOnOpen": true,
   "zoomToFitOnResize": true,
   "zoomToFitMaxLevel": 2,
+  "zoomStep": 0.05,
+  "zoomMin": 0.1,
+  "zoomMax": 30,
   "linkPrefix": "📍",
   "urlPrefix": "🌐",
   "parseTODO": false,
@@ -79,9 +95,11 @@
   "experimentalFileTag": "✏️",
   "experimentalLivePreview": true,
   "fadeOutExcalidrawMarkup": false,
+  "loadPropertySuggestions": true,
   "experimentalEnableFourthFont": false,
   "experimantalFourthFont": "Virgil",
   "addDummyTextElement": false,
+  "zoteroCompatibility": false,
   "fieldSuggester": true,
   "compatibilityMode": false,
   "drawingOpenCount": 0,
@@ -89,7 +107,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.2.4",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.15.3",
     "libraryItems": []
   },
   "imageElementNotice": true,
@@ -101,10 +119,12 @@
   "mdCSS": "",
   "scriptEngineSettings": {},
   "defaultTrayMode": true,
-  "previousRelease": "2.2.4",
-  "showReleaseNotes": true,
+  "previousRelease": "2.0.22",
+  "showReleaseNotes": false,
+  "compareManifestToPluginVersion": true,
   "showNewVersionNotification": true,
   "latexBoilerplate": "\\color{blue}",
+  "latexPreambleLocation": "preamble.sty",
   "taskboneEnabled": false,
   "taskboneAPIkey": "",
   "pinnedScripts": [],
@@ -112,21 +132,20 @@
     {
       "type": "default",
       "freedrawOnly": false,
-      "strokeColor": "#000000",
       "backgroundColor": "transparent",
       "fillStyle": "hachure",
-      "strokeWidth": 0,
-      "roughness": 0,
+      "strokeWidth": 0.5,
+      "roughness": null,
       "penOptions": {
         "highlighter": false,
         "constantPressure": false,
         "hasOutline": false,
-        "outlineWidth": 1,
+        "outlineWidth": 0,
         "options": {
-          "thinning": 0.6,
+          "thinning": 0.65,
           "smoothing": 0.5,
           "streamline": 0.5,
-          "easing": "easeOutSine",
+          "easing": "linear",
           "start": {
             "cap": true,
             "taper": 0,
@@ -136,17 +155,19 @@
             "cap": true,
             "taper": 0,
             "easing": "linear"
-          }
+          },
+          "simulatePressure": false
         }
-      }
+      },
+      "strokeColor": "#000000"
     },
     {
       "type": "highlighter",
       "freedrawOnly": true,
-      "strokeColor": "#FFC47C",
-      "backgroundColor": "#FFC47C",
+      "strokeColor": "#a5d8ff",
+      "backgroundColor": "#a5d8ff",
       "fillStyle": "solid",
-      "strokeWidth": 2,
+      "strokeWidth": 0.5,
       "roughness": null,
       "penOptions": {
         "highlighter": true,
@@ -172,77 +193,15 @@
       }
     },
     {
-      "type": "finetip",
+      "type": "highlighter",
       "freedrawOnly": false,
-      "strokeColor": "#3E6F8D",
-      "backgroundColor": "transparent",
-      "fillStyle": "hachure",
+      "strokeColor": "#ffec99",
+      "backgroundColor": "#ffec99",
+      "fillStyle": "solid",
       "strokeWidth": 0.5,
-      "roughness": 0,
+      "roughness": null,
       "penOptions": {
-        "highlighter": false,
-        "hasOutline": false,
-        "outlineWidth": 1,
-        "constantPressure": true,
-        "options": {
-          "smoothing": 0.4,
-          "thinning": -0.5,
-          "streamline": 0.4,
-          "easing": "linear",
-          "start": {
-            "taper": 5,
-            "cap": false,
-            "easing": "linear"
-          },
-          "end": {
-            "taper": 5,
-            "cap": false,
-            "easing": "linear"
-          }
-        }
-      }
-    },
-    {
-      "type": "fountain",
-      "freedrawOnly": false,
-      "strokeColor": "#000000",
-      "backgroundColor": "transparent",
-      "fillStyle": "hachure",
-      "strokeWidth": 2,
-      "roughness": 0,
-      "penOptions": {
-        "highlighter": false,
-        "constantPressure": false,
-        "hasOutline": false,
-        "outlineWidth": 1,
-        "options": {
-          "smoothing": 0.2,
-          "thinning": 0.6,
-          "streamline": 0.2,
-          "easing": "easeInOutSine",
-          "start": {
-            "taper": 150,
-            "cap": true,
-            "easing": "linear"
-          },
-          "end": {
-            "taper": 1,
-            "cap": true,
-            "easing": "linear"
-          }
-        }
-      }
-    },
-    {
-      "type": "marker",
-      "freedrawOnly": true,
-      "strokeColor": "#B83E3E",
-      "backgroundColor": "#FF7C7C",
-      "fillStyle": "dashed",
-      "strokeWidth": 2,
-      "roughness": 3,
-      "penOptions": {
-        "highlighter": false,
+        "highlighter": true,
         "constantPressure": true,
         "hasOutline": true,
         "outlineWidth": 4,
@@ -258,6 +217,68 @@
           },
           "end": {
             "taper": 0,
+            "cap": true,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "default",
+      "freedrawOnly": true,
+      "strokeColor": "#ff4242",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 0.5,
+      "roughness": 0,
+      "penOptions": {
+        "highlighter": false,
+        "constantPressure": true,
+        "hasOutline": false,
+        "outlineWidth": 0,
+        "options": {
+          "thinning": 0,
+          "smoothing": 0,
+          "streamline": 0,
+          "easing": "linear",
+          "start": {
+            "cap": true,
+            "taper": 0,
+            "easing": "linear"
+          },
+          "end": {
+            "cap": true,
+            "taper": 0,
+            "easing": "linear"
+          }
+        }
+      }
+    },
+    {
+      "type": "finetip",
+      "freedrawOnly": true,
+      "strokeColor": "#3E6F8D",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 0.5,
+      "roughness": 0,
+      "penOptions": {
+        "highlighter": false,
+        "hasOutline": false,
+        "outlineWidth": 0,
+        "constantPressure": true,
+        "options": {
+          "smoothing": 0,
+          "thinning": 0,
+          "streamline": 0,
+          "easing": "linear",
+          "start": {
+            "taper": 5,
+            "cap": true,
+            "easing": "linear"
+          },
+          "end": {
+            "taper": 5,
             "cap": true,
             "easing": "linear"
           }
@@ -420,9 +441,10 @@
       }
     }
   ],
-  "numberOfCustomPens": 0,
+  "numberOfCustomPens": 4,
   "pdfScale": 4,
   "pdfBorderBox": true,
+  "pdfFrame": false,
   "pdfGapSize": 20,
   "pdfGroupPages": false,
   "pdfLockAfterImport": true,
@@ -430,6 +452,11 @@
   "pdfNumRows": 1,
   "pdfDirection": "right",
   "pdfImportScale": 0.3,
+  "gridSettings": {
+    "DYNAMIC_COLOR": true,
+    "COLOR": "#000000",
+    "OPACITY": 50
+  },
   "laserSettings": {
     "DECAY_LENGTH": 50,
     "DECAY_TIME": 1000,
@@ -446,11 +473,13 @@
     "borderOpacity": 0,
     "filenameVisible": false
   },
+  "markdownNodeOneClickEditing": false,
   "canvasImmersiveEmbed": true,
   "startupScriptPath": "",
+  "aiEnabled": true,
   "openAIAPIToken": "",
   "openAIDefaultTextModel": "gpt-3.5-turbo-1106",
-  "openAIDefaultVisionModel": "gpt-4-vision-preview",
+  "openAIDefaultVisionModel": "gpt-4o",
   "openAIDefaultImageGenerationModel": "dall-e-3",
   "openAIURL": "https://api.openai.com/v1/chat/completions",
   "openAIImageGenerationURL": "https://api.openai.com/v1/images/generations",
@@ -744,5 +773,38 @@
   "areaZoomLimit": 1,
   "longPressDesktop": 500,
   "longPressMobile": 500,
-  "isDebugMode": false
+  "doubleClickLinkOpenViewMode": true,
+  "isDebugMode": false,
+  "rank": "Bronze",
+  "modifierKeyOverrides": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Enter"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "k"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "G"
+    }
+  ],
+  "showSplashscreen": true,
+  "pdfSettings": {
+    "pageSize": "A4",
+    "pageOrientation": "portrait",
+    "fitToPage": 1,
+    "paperColor": "white",
+    "customPaperColor": "#ffffff",
+    "alignment": "center",
+    "margin": "normal"
+  },
+  "autosaveInterval": 15000
 }

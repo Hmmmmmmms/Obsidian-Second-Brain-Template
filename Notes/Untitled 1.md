@@ -1,0 +1,1 @@
+![[Untitled 1 2025-09-19 01.50.07.excalidraw]]

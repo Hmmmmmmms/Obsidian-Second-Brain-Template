@@ -210,7 +210,7 @@ var filtersList = [
 ];
 
 // src/main.ts
-var QUOTE_API_URL = "https://api.quotable.io";
+var QUOTE_API_URL = "https://florinbobis-quotes-net.hf.space/quotes";
 var MAX_TAG_CHARS = 25;
 var DEFAULT_SETTINGS = {
   quoteFormat: `>[!quote] Quote of the Day
@@ -230,13 +230,16 @@ var QuoteOfTheDay = class extends import_obsidian2.Plugin {
   constructor() {
     super(...arguments);
     this.getMarkdownFromQuote = (qod) => {
-      let text = this.settings.quoteFormat.replace("{content}", qod.content).replace("{author}", qod.author);
+      let text = this.settings.quoteFormat.replace("{content}", qod.quoteText).replace("{author}", qod.author);
       if (this.settings.showTags) {
         let tagSymb = "";
         if (this.settings.showTagHash) {
           tagSymb = "#";
         }
-        let tags = qod.tags.map((t) => `${tagSymb}${t}`).join(", ");
+        let tags = "";
+        if (qod.categories) {
+          tags = qod.categories.split(",").map((t) => `${tagSymb}${t}`).join(", ");
+        }
         let quoteTags = this.settings.quoteTagFormat.replace("{tags}", tags);
         text = text + "\n" + quoteTags;
       }
@@ -274,12 +277,12 @@ var QuoteOfTheDay = class extends import_obsidian2.Plugin {
     });
     this.getRandomQuote = () => __async(this, null, function* () {
       let qod = {
-        content: "Oops, I did it again \u{1F64A}",
+        quoteText: "Oops, I did it again \u{1F64A}",
         author: "Britney Error \u{1F622}",
-        tags: ["error"]
+        categories: "error"
       };
       try {
-        let response = yield fetch(`${QUOTE_API_URL}/random`);
+        let response = yield fetch(`${QUOTE_API_URL}/random?dataset=quotable`);
         let result = yield response.json();
         if (!result.statusCode) {
           qod = result;
@@ -292,13 +295,13 @@ var QuoteOfTheDay = class extends import_obsidian2.Plugin {
     });
     this.getFilteredQuote = () => __async(this, null, function* () {
       let qod = {
-        content: "Oops, I did it again \u{1F64A}",
+        quoteText: "Oops, I did it again \u{1F64A}",
         author: "Britney Error \u{1F622}",
-        tags: ["error"]
+        categories: "error"
       };
       try {
         let filters = this.getFilters("|");
-        let response = yield fetch(`${QUOTE_API_URL}/random?tags=${filters}`);
+        let response = yield fetch(`${QUOTE_API_URL}/random?dataset=quotable&tags=${filters}`);
         let result = yield response.json();
         if (!result.statusCode) {
           qod = result;
@@ -346,9 +349,9 @@ var QuoteOfTheDay = class extends import_obsidian2.Plugin {
         },
         editorCallback: (editor, view) => __async(this, null, function* () {
           let qod = {
-            content: "Oops, cannot find that tag \u{1F64A}",
+            quoteText: "Oops, cannot find that tag \u{1F64A}",
             author: "Tag Error \u{1F622}",
-            tags: ["error"]
+            categories: "error"
           };
           try {
             const sel = editor.getSelection();
@@ -385,3 +388,5 @@ var QuoteOfTheDay = class extends import_obsidian2.Plugin {
     });
   }
 };
+
+/* nosourcemap */

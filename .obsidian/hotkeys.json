@@ -29,14 +29,7 @@
   "app:go-back": [
     {
       "modifiers": [
-        "Mod",
         "Alt"
-      ],
-      "key": "ArrowLeft"
-    },
-    {
-      "modifiers": [
-        "Mod"
       ],
       "key": "ArrowLeft"
     }
@@ -44,14 +37,7 @@
   "app:go-forward": [
     {
       "modifiers": [
-        "Mod",
         "Alt"
-      ],
-      "key": "ArrowRight"
-    },
-    {
-      "modifiers": [
-        "Mod"
       ],
       "key": "ArrowRight"
     }
@@ -62,6 +48,22 @@
         "Alt"
       ],
       "key": "D"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowRight"
     }
   ]
 }
