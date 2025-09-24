@@ -195,7 +195,8 @@ Banner plugined er det plugin jeg bruger på [[Homepage]] aller øverst. For at 
 4. Du kan trække billedet op og ned med din mus, for at tilpasse det.
 
 ### Buttons
-Buttons plugined er det plugin jeg bruger til at lave knapper på [[homepage]] og i daily note til at ændre alias hvis der nu skete noget stort på dagen. Knapperne jeg bruger i den her vault kan findes under den gemte mappe (Plugins -> Buttons)
+Buttons plugined er det plugin jeg bruger til at lave knapper på [[homepage]] og i daily note til at ændre alias hvis der nu skete noget stort på dagen. Knapperne jeg bruger i den her vault kan findes under den gemte mappe (Plugins -> Buttons). *Hvis knapperne på frontpage ikke initializer så gå lige ind på hver knap og load siden, aka skriv et eller andet f.eks. "a" og slet det igen. Gør dette for alle knapperne i*
+![[Pasted image 20250925014312.png|200]]
 For at oprette nye buttons så søg under command paletten på "Buttons". Det er lidt svært dog kan man lave en masse forskellige knapper
 
 

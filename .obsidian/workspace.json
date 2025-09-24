@@ -17,16 +17,7 @@
                 "file": "Plugins/Homepage.md",
                 "mode": "preview",
                 "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "backlinks": false
               },
               "pinned": true,
               "icon": "lucide-file",
@@ -90,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 227.5,
+    "collapsed": true
   },
   "right": {
     "id": "35f65674dfd9d00b",
@@ -237,20 +229,24 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Journal/Daily Note/Daily Note 18-09-2025.md",
+    "Databases/Books/Database - Books.md",
+    "Plugins/Homepage.md",
+    "How to Obsidian.md",
     "Templates/Template Daily Note.md",
+    "Attachment/Pasted image 20250925014312.png",
+    "Databases/Media/Database - Media.md",
+    "Databases/Movies and Series/Database - Movies and Series.md",
+    "Journal/Daily Note/Daily Note 18-09-2025.md",
     "Journal/Weekly Note/Weekly Note W38-2025.md",
     "Journal/Weekly Note/Weekly Note W37-2025.md",
     "Journal/Weekly Note/Weekly Note W24-2024.md",
     "Notes/Self improvement/Habits/4 Laws of behavior change.md",
     "Notes/Self improvement/Self improvement.md",
-    "Plugins/Homepage.md",
     "Notes/Untitled 1.md",
     "Attachment/Untitled 1 2025-09-19 01.50.07.excalidraw.md",
     "Excalidraw/Template.excalidraw.md",
     "Journal/Yearly Note/Yearly Note - 2025.md",
     "Journal/Monthly Note/Monthly Note - Sep 2025.md",
-    "How to Obsidian.md",
     "Templates/Template weekly Note.md",
     "Journal/Quarterly Note/Quarterly note - Q3 2025.md",
     "Journal/Daily Note/Daily Note 11-06-2024.md",
@@ -259,10 +255,6 @@
     "Templates/Template Rolodex entry.md",
     "Templates/Templater Change alias of file.md",
     "Templates/Template Books - Media DB plugin.md",
-    "Templates/Template Movies og Series - Media DB plugin.md",
-    "README.md",
-    "Journal/Yearly Note/Yearly Note - 2024.md",
-    "Journal/Quarterly Note/Quarterly note - Q2 2024.md",
     "Journal/Yearly Note",
     "Journal/New folder",
     "Journal/Quarterly Note",
@@ -282,7 +274,6 @@
     "Attachment/Pasted image 20240605144237.png",
     "Attachment/Pasted image 20240605142331.png",
     "Attachment/Pasted image 20240605142330.png",
-    "Attachment/Pasted image 20240605141954.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
