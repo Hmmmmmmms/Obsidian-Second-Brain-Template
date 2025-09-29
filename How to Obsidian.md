@@ -1,5 +1,8 @@
 ---
-Date: {{date}}
+Date:
+  "{ date }":
+aliases:
+  - 
 ---
 Du spørger nok, hvordan virker skidtet. Så her kommer den lange smøre.
 ## The basics
@@ -12,7 +15,23 @@ Som du nok kan se hvis du har fulgt installationsguiden, så har du en del "Comm
 ![[Pasted image 20240605100800.png|200]]
 Hvis ikke Community plugins er enabled så gå ind under (Settings ->Community plugins -> Turn on community plugins)
 ![[Pasted image 20240605121649.png|500]]
-# Core plugins(plugins fra obsidian)
+## Core plugins(plugins fra obsidian)
+### Backlinks
+Den vigtigste som jeg vil highlight er ==Backlinks== core plugin som gør Obsidian om til den bedste note tagnings app of all time. 
+- Det eneste du skal vide er at man kan cross reference på tværs af noter som f.eks. det her link til [[Homepage]]. 
+- Og man kan også refere til specifikke overskriver i en note [[How to Obsidian#Quick Switcher]]. Selvfølgelig kan du også referere til specifikke sider i en pdf ved [[PDF eksempel.pdf#page=2]]
+- Man kan også ændre "Alias" for noten ved at ændre hvad der står i backlinket ved at tilføje et "|" i linket. Prøv f.eks. at hover over denne [[Database - Books|Her kan du finde din bog database]]
+- Og man kan også display hvad der er i noten(Også under en specifik sektion) ved at tilføje et lille "!" foran dit backlink. F.eks.
+
+==---==
+![[Lecture 1 - Udsagnslogik eller proportional logic#Definition af udsagnslogik]]
+==---==
+
+### How to resize billeder
+I Obsidian kan du resize billeder ved at tilføje et "|" efter backlink for billedet og så skrive en størrelse i pixels du gerne vil have billedet til at være bred og høj F.eks. "|300x100". Se f.eks. det her eksempel, ved at trykke på billedet
+![[Pasted image 20250930010127.png|200x50]]
+
+
 ### Quick Switcher
 Quick switcher plugined med følgende logo i venstre side
 ![[Pasted image 20240605104110.png|300]]
@@ -41,7 +60,12 @@ Dette er hvor du kan få overblik over alle dine noter. Meget fedt at få overbl
 Canvas plugined med følgende logo i venstre side
 ![[Pasted image 20240605103028.png|300]]
 Godt til at lave brainstorms... Jeg bruger det ikke rigtig. Men det kan være jeg gør i fremtiden 🤷‍♂️
-# Community plugins
+
+### De andre core plugins
+Og der er mange flere core plugins jeg ikke gider gå over. Alle de andre Core plugins kan ses under settings
+![[Pasted image 20250930004747.png|400]]
+
+## Community plugins
 ### Homepage
 Homepage plugined med følgende logo i venstre side
 ![[Pasted image 20240605095708.png|300]]
@@ -56,7 +80,7 @@ Man kan stadig søge efter alle de filer der er i de gemte foldere med f.eks. "q
 ![[Pasted image 20240605101057.png|500]]
 Fordi det godt kan blive rimelig rodet i search når man begynder at have mange billeder
 
-## Periodic Notes
+### Periodic Notes
 Periodic Notes er plugined jeg bruger til at skrive journal, altså "daily note", "weekly note", "monthly note", "quarterly note" og "yearly note". Det er meget simpelt at gøre eftersom jeg har lavet knapper på [[Homepage]] som automatisk åbner de forskellige ting
 ![[Pasted image 20240605123734.png|400]]
 Knapperne åbner den dag, uge, måned, quarter eller år det er lige nu. 
@@ -195,18 +219,30 @@ Banner plugined er det plugin jeg bruger på [[Homepage]] aller øverst. For at 
 4. Du kan trække billedet op og ned med din mus, for at tilpasse det.
 
 ### Buttons
-Buttons plugined er det plugin jeg bruger til at lave knapper på [[homepage]] og i daily note til at ændre alias hvis der nu skete noget stort på dagen. Knapperne jeg bruger i den her vault kan findes under den gemte mappe (Plugins -> Buttons). *Hvis knapperne på frontpage ikke initializer så gå lige ind på hver knap og load siden, aka skriv et eller andet f.eks. "a" og slet det igen. Gør dette for alle knapperne i*
+Buttons plugined er det plugin jeg bruger til at lave knapper på [[homepage]] og i daily note til at ændre alias hvis der nu skete noget stort på dagen. Knapperne jeg bruger i den her vault kan findes under den gemte mappe (Plugins -> Buttons). *Hvis knapperne på frontpage ikke initializer, altså ikke loader, så gå lige ind på hver knap under mappen Plugins/Buttons og load siden, aka skriv et eller andet f.eks. "a" og slet det igen. Gør dette for alle knapperne i mappen* 
 ![[Pasted image 20250925014312.png|200]]
-For at oprette nye buttons så søg under command paletten på "Buttons". Det er lidt svært dog kan man lave en masse forskellige knapper
+Hvis de ikke popper op så tryk lige på øjet for at vise de gemte mapper.
+![[Pasted image 20250930000700.png|50]]
+
+For at oprette nye buttons så søg under command paletten på "Buttons". Det er lidt svært dog kan man lave en masse forskellige knapper med en masse forskellige commands og andre funktioner.
 
 
-## QuickAdd
+### QuickAdd
+==Nok et af mine mest vigtige plugins for studie==
+
 QuickAdd er et plugin der kan en masse ting. Man kan opsætte macros, og en masse andet. Dog er det også enormt kompliceret.
-Jeg har kun en ting i det. Dog er det også en enormt brugbar ting, nemlig et zetteliser script i javascript, der laver nye noter ud af alle headings om de er heading 2 eller heading 3, som man kan referere til, disse headings bliver gemt i en "Zettelizer boks" ovre til venstre. Jeg bruger det meget på studie for at bryde mine store noter ned i små noter som jeg kan cross referere til i andre noter.
-Prøv det i den her note
-1. Søg i command palette efter "QuickAdd: Run QuickAdd" og så vælg "Zetteliser Headings 3"*(Den tager alle headings på 3. niveau altså med ### foran sig og laver nye noter ud af dem)*
-3. Åben "Zettelizer boks" ovre til venstre og prøv at åben en af noterne
-4. Disse noter kan du altså referere til i den her note med [[]] og du kan også quick switch til med med [[Quick Switcher]]. Jeg plejer normalt at rykke dem over i en anden long term storage mappe, så "Zettelizer boksen" ikke bliver rodet.
+Jeg har kun en ting i det. Dog er det også en enormt brugbar ting, nemlig et "Auto Create Script" i javascript, der laver nye noter ud af alle headings om de er headings 1, headings 2 eller headings 3, som man kan referere til, disse headings bliver gemt i en "Permanent Notes" ovre til venstre. 
+
+Jeg bruger det meget på studie for at bryde mine store noter lad os sige fra en forelæsning ned i små noter som jeg så kan cross referere til i andre noter, hvis jeg f.eks. har haft en forelæsning om Forskellige koordinatsystemer, og jeg så senere skriver en note o.
+
+**Prøv det i den her note**
+1. Søg i command palette efter "QuickAdd: Auto Create Headings 3"*(Den tager alle headings på 3. niveau altså med ### foran sig og laver nye noter ud af dem)*
+2. Åben "Permanent Notes" ovre til venstre og prøv at åben en af noterne
+3. Disse noter kan du så referere til i alle andre noter med [[]] og du kan også quick switch til dem med [[Quick Switcher]]*(Lad vær med at trykke på dette link før du har gjort step 1)*. 
+
+*Har også lavet en for "QuickAdd: Auto Create Headings 1" og "QuickAdd: Auto Create Headings 2"*
+
+
 
 ### Latex Suite
 Latex suite bruger jeg enormt meget til at skrive LaTeX hurtigere. Især fordi jeg læser fysik og konstant skal skrive formler som lorentz koordinat transformations ligninger
@@ -222,7 +258,21 @@ $$
 For at vise et eksempel. Plugined er slået fra, men kan let slåes til under (Settings -> Community plugins)
 I Kombination med det bruger jeg et eksternt værktøj som kan lave billeder om til LaTeX kaldt SimpleTex https://simpletex.cn/download
 
-# Syncing across devices
+## Hvordan jeg studerer
+Når jeg studere Gør jeg følgende 
+1. Jeg kan godt lide at lave en helt normal hierarkisk mappe struktur f.eks. filen [[Lecture 1 - Udsagnslogik eller proportional logic]]
+	I mappe strukturen
+	"*Studie/2024 Fall, Mathematics 1a/Week 1/==Fil==*
+
+2. Når jeg så har skrevet noten færdig bruger jeg min [[QuickAdd]] commando "QuickAdd: Auto Create Headings 2" til at lave alle nye seperate noter ud fra alle Headers 2, baseret på hvad der står i [[Lecture 1 - Udsagnslogik eller proportional logic]]. Disse filer er f.eks.
+	- [[Definition af udsagnslogik]]
+	- [[Sandhedstabeller]]
+	- [[Tautologier]]
+	- Osv...
+
+3. That's it, dermed har jeg altid mine noter fra alle fag for evigt, altid klar til at [[Quick Switcher|quick switch]] hen til og også backlink til 
+
+## Syncing across devices
 ### Gratis Icloud Sync eller Obsidian betalt Sync
 Den her video forklarer meget godt hvordan de to systemer fungerer
 [[Youtube - Syncing Vaults in Obsidian]]
@@ -264,7 +314,7 @@ Obsidian Git er et plugin der lader dig backup din vault til Github, så følg n
 - [[Youtube - The Easiest Way to Setup Obsidian Git (4 Minutes)]]
 - [[Youtube - Backup your Obsidian Vault for free]]
 
-# Lidt ekstra stuff
+## Lidt ekstra stuff
 ### AI i dine noter
 Jeg bruger selv meget AI plugins i mine noter. Mine favoritter er
 - "Text Generator"(bruger den til at skrive noter, istedet for at søge online, så skriver jeg bare f.eks. "hvad er lysets hastighed?" og så har jeg bare binded en hotkey som så prompter openAI's API, og så skriver det en responds i mine noter på mit spørgsmål) God video af Sergio på det [[Youtube - How I'm Using AI WITH My Obsidian Vault]]
@@ -296,4 +346,4 @@ Til at holde styr på vaner bruger jeg en app på min telefon kaldt "Habit track
 https://apps.apple.com/us/app/habit-tracker/id1438388363
 
 ### Kontakt mig for hjælp med din vault
-Skriv til mig på [[Instagram - stoklund_lifting]] hvis du har brug for hjælp til at sætte noget op. Så kan vi eventuelt hoppe på discord for at få sat ting op. 
+Skriv til mig på [Instagram.com - stoklund_lifting](https://www.instagram.com/stoklund_lifting/) hvis du har brug for hjælp til at sætte noget op. Så kan vi eventuelt hoppe på discord for at få sat ting op. 

@@ -1,19 +1,39 @@
 {
   "choices": [
     {
-      "id": "f4b0b233-0c07-479e-a150-7aece738d0bb",
-      "name": "Zetteliser Headings 2",
+      "id": "3b5d2ac9-b326-4872-bab7-f3865505ebf6",
+      "name": "Auto Create Headings 1",
       "type": "Macro",
-      "command": false,
+      "command": true,
+      "runOnStartup": false,
       "macro": {
-        "id": "c29202fb-a48b-4e27-b9af-18755b4bd3e4",
-        "name": "ZH2",
+        "id": "e487beb9-76ee-4100-90ff-5112dab80fa3",
+        "name": "Auto Create Headings 1",
         "commands": [
           {
-            "name": "zettelizer scriptH2",
+            "name": "Auto Create scriptH1",
             "type": "UserScript",
-            "id": "fdca18f7-7f55-4145-9fbe-71b8f4feb97a",
-            "path": "Plugins/Scripts/zettelizer scriptH2.js",
+            "id": "91008604-1937-4cfe-a692-85c8a6fc7142",
+            "path": "Plugins/Scripts/Auto Create scriptH1.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "f4b0b233-0c07-479e-a150-7aece738d0bb",
+      "name": "Auto Create Headings 2",
+      "type": "Macro",
+      "command": true,
+      "macro": {
+        "id": "c29202fb-a48b-4e27-b9af-18755b4bd3e4",
+        "name": "Auto Create Headings 2",
+        "commands": [
+          {
+            "name": "Auto Create scriptH2",
+            "type": "UserScript",
+            "id": "e2d16eae-eff2-48be-87d4-14ad501f373c",
+            "path": "Plugins/Scripts/Auto Create scriptH2.js",
             "settings": {}
           }
         ]
@@ -22,18 +42,18 @@
     },
     {
       "id": "8e5baf68-635a-426e-a9cd-69beeada27dc",
-      "name": "Zetteliser Headings 3",
+      "name": "Auto Create Headings 3",
       "type": "Macro",
-      "command": false,
+      "command": true,
       "macro": {
         "id": "d2a40cd9-ea63-4413-bc6d-f3755308fe9b",
-        "name": "ZH3",
+        "name": "Auto Create Headings 3",
         "commands": [
           {
-            "name": "zettelizer scriptH3",
+            "name": "Auto Create scriptH3",
             "type": "UserScript",
-            "id": "463934ea-41cb-4b30-90af-15282006d6d8",
-            "path": "Plugins/Scripts/zettelizer scriptH3.js",
+            "id": "90ec6ed6-88f2-4eb2-a8dc-f0c37ca446f9",
+            "path": "Plugins/Scripts/Auto Create scriptH3.js",
             "settings": {}
           }
         ]
@@ -49,7 +69,7 @@
   "globalVariables": {},
   "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
-  "enableRibbonIcon": false,
+  "enableRibbonIcon": true,
   "showCaptureNotification": true,
   "ai": {
     "defaultModel": "Ask me",

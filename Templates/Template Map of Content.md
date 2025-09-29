@@ -5,4 +5,4 @@ tags:
 aliases:
   - MoC - {{title}}
 ---
-%% Waypoint "fjern dette for at det virker" %%
+%% Waypoint (Fjern dette og denne parantes for at den virker) %%

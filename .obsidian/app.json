@@ -2,19 +2,20 @@
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "pdfExportSettings": {
-    "includeName": false,
-    "pageSize": "Letter",
+    "includeName": true,
+    "pageSize": "A4",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
   },
   "newFileLocation": "folder",
-  "newFileFolderPath": "Notes",
+  "newFileFolderPath": "New Notes",
   "attachmentFolderPath": "Attachment",
   "readableLineLength": true,
   "propertiesInDocument": "hidden",
   "showInlineTitle": true,
   "userIgnoreFilters": [
     "Attachment/"
-  ]
+  ],
+  "showUnsupportedFiles": true
 }
