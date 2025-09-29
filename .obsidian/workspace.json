@@ -15,8 +15,8 @@
               "type": "markdown",
               "state": {
                 "file": "Plugins/Homepage.md",
-                "mode": "preview",
-                "source": false,
+                "mode": "source",
+                "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -32,8 +32,33 @@
               "icon": "lucide-file",
               "title": "Homepage"
             }
+          },
+          {
+            "id": "befa65a8bd6e0739",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "How to Obsidian.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "How to Obsidian"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,8 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5,
-    "collapsed": true
+    "width": 227.5
   },
   "right": {
     "id": "35f65674dfd9d00b",
@@ -237,10 +261,16 @@
       "quickadd:QuickAdd": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "befa65a8bd6e0739",
   "lastOpenFiles": [
+    "Databases/Media/Youtube - How I'm Using AI WITH My Obsidian Vault.md",
     "How to Obsidian.md",
+    "Attachment/Secondbrain.png",
     "Plugins/Homepage.md",
+    "New Notes/Testing.md",
+    "Permanent Notes/Bomb.md",
+    "Permanent Notes/Bamb.md",
+    "Permanent Notes/Pow.md",
     "Studie/2024 Fall, Mathematics 1a/Week 1/Lecture 1 - Udsagnslogik eller proportional logic.md",
     "Attachment/Pasted image 20250930010127.png",
     "Databases/PDFs/PDF eksempel.pdf",
@@ -270,20 +300,15 @@
     "Studie/2024 Fall, Mathematics 1a",
     "Studie/2025 Fall, Mechanics and Physical Modeling",
     "Studie",
-    "Untitled.md",
     "Plugins/Scripts/Auto Create scriptH1.js",
     "Plugins/Scripts/Auto Create scriptH2 - Copy.js",
-    "What da helly.md",
     "Attachment/Pasted image 20250930000700.png",
-    "Permanent Notes/Test.md",
-    "Permanent Notes/Buddy.md",
     "Attachment/Pasted image 20250925014312.png",
     "Attachment/Pasted image 20240605154815.png",
     "Attachment/Pasted image 20240605154726.png",
     "Attachment/Pasted image 20240605154700.png",
     "Attachment/Pasted image 20240605154150.png",
     "Attachment/Pasted image 20240605150036.png",
-    "Attachment/Sexy man.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

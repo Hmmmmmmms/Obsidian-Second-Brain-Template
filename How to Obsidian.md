@@ -317,12 +317,17 @@ Obsidian Git er et plugin der lader dig backup din vault til Github, så følg n
 ## Lidt ekstra stuff
 ### AI i dine noter
 Jeg bruger selv meget AI plugins i mine noter. Mine favoritter er
-- "Text Generator"(bruger den til at skrive noter, istedet for at søge online, så skriver jeg bare f.eks. "hvad er lysets hastighed?" og så har jeg bare binded en hotkey som så prompter openAI's API, og så skriver det en responds i mine noter på mit spørgsmål) God video af Sergio på det [[Youtube - How I'm Using AI WITH My Obsidian Vault]]
-- "Copilot" er bare en ChatGPT i dine noter, hvor du så også kan give den nogle af dine noter som kontekst og så kan den give svar. Bruger den ikke så meget endnu, men løbende når OpenAI's modeller kan tage en større kontekst så begynder jeg nok at bruge den mere og mere, som en personlig assistent(Prøvede det for et stykke tid siden, og det virkede ok. Men i fremtiden bliver det bar endnu vildere).  [[Youtube - The Free AI Tool that Knows Everything You've Written (Obsidian with AI)]] 
+
+##
+"Text Generator"(bruger den til at skrive noter, istedet for at søge online, så skriver jeg bare f.eks. "hvad er lysets hastighed?" og så har jeg en hotkey f.eks. "ctrl + j" som så prompter openAI's modeller, og så skriver det en responds i mine noter på mit spørgsmål) God video af Sergio på det [[Youtube - How I'm Using AI WITH My Obsidian Vault]]. For at sætte det op 
+#### Copilot
+"Copilot" er bare en ChatGPT i dine noter, hvor du så også kan give den nogle af dine noter som kontekst og så kan den give svar. Bruger den ikke så meget endnu, men løbende når OpenAI's modeller kan tage en større kontekst så begynder jeg nok at bruge den mere og mere, som en personlig assistent(Prøvede det for et stykke tid siden, og det virkede ok. Men i fremtiden bliver det bar endnu vildere).  [[Youtube - The Free AI Tool that Knows Everything You've Written (Obsidian with AI)]] 
 
 ### Social media manager eller andre projects manager - Projects plugin
 Hvis du gerne vil opsætte en social media manager så følg videoen
 [[Youtube - Obsidian For Content Creators (ft. Projects Plugin)]]
+
+Man kan også bruge det til alle andre former for Projekt management.
 
 ### Rolodex
 Et Rolodex er en måde at holde styr på folks navne og informationer. Jeg bruger det meget i kombination med mine "Daily notes" hvis jeg nu har været sammen med et familiemedlem, en ven, en fremmed, osv. så kan jeg lave en ny note om dem som jeg kan skrive informationer om dem i. Det er dejligt når man har dårlig hukommelse, så man aldrig glemmer de vigtige ting om folk. 
@@ -345,5 +350,14 @@ Til at holde styr på de tasks jeg skal have lavet bruger jeg appen Todoist på 
 Til at holde styr på vaner bruger jeg en app på min telefon kaldt "Habit tracker". Det er den bedste habit tracker jeg har fundet. Man kan også opsætte en i obsidian, dog er det lidt svært. Har brugt den i 3 år, og har bygget en masse gode vaner med den.
 https://apps.apple.com/us/app/habit-tracker/id1438388363
 
+### Collaborate on Obsidian - Relay
+Obsidian er bedst til personlig brug, men selvfølgelig er der lavet et plugin som også kan håndtere deling af markdown filer med andre obsidian brugerer, så man kan redigere samme mappe og markdown filer i real time. Virkelig fedt.
+
+Plugined hedder "Relay"
+
+Man kan dele en Relay med op til 3 andre gratis, og så koster det ellers penge hvis man vil dele med flere mennesker. 
+Dog et mega cool plugin.
+
+
 ### Kontakt mig for hjælp med din vault
-Skriv til mig på [Instagram.com - stoklund_lifting](https://www.instagram.com/stoklund_lifting/) hvis du har brug for hjælp til at sætte noget op. Så kan vi eventuelt hoppe på discord for at få sat ting op. 
+Join min Discord [Second Brain Discord](https://discord.gg/v6ANQe5y2w) og spørg løs

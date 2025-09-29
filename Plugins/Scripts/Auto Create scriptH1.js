@@ -26,7 +26,7 @@ module.exports = async (params) => {
 
     headingsInFile.forEach(async heading => {
         console.log(`Checking ${heading.heading}. It is level ${heading.level}`);
-        if (heading.level == 2) {
+        if (heading.level == 1) {
             const text = heading.heading;
 
             const path = `${folder}/${text.replace(/[\\,#%&\{\}\/*<>$\'\":@]*/g, '')}.md`;
