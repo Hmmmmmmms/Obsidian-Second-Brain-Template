@@ -15,8 +15,8 @@
               "type": "markdown",
               "state": {
                 "file": "Plugins/Homepage.md",
-                "mode": "source",
-                "source": true,
+                "mode": "preview",
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -32,33 +32,8 @@
               "icon": "lucide-file",
               "title": "Homepage"
             }
-          },
-          {
-            "id": "befa65a8bd6e0739",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "How to Obsidian.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "How to Obsidian"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,8 +215,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "hide-folders:Show hidden folders": false,
       "homepage:Open homepage": false,
-      "hide-folders:Hide hidden folders again": false,
       "bases:Create new base": true,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -257,34 +232,35 @@
       "obsidian-media-db-plugin:Add new Media DB entry": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-read-it-later:ReadItLater: Create from clipboard": false,
-      "periodic-notes:Open today": true,
-      "quickadd:QuickAdd": false
+      "quickadd:QuickAdd": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "befa65a8bd6e0739",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Databases/Media/Youtube - How I'm Using AI WITH My Obsidian Vault.md",
     "How to Obsidian.md",
-    "Attachment/Secondbrain.png",
+    "Studie/2025 Fall, Mechanics and Physical Modeling/2025 Fall, Mechanics and Physical Modeling.md",
+    "Studie/2024 Fall, Mathematics 1a/Week 1/Lecture 1 - Udsagnslogik eller proportional logic.md",
+    "Permanent Notes/Bimplikation (hvis og kun hvis).md",
+    "Studie/2024 Fall, Mathematics 1a/2024 Fall, Mathematics 1a.md",
     "Plugins/Homepage.md",
+    "Databases/Media/Youtube - How I'm Using AI WITH My Obsidian Vault.md",
+    "Attachment/Secondbrain.png",
     "New Notes/Testing.md",
     "Permanent Notes/Bomb.md",
     "Permanent Notes/Bamb.md",
     "Permanent Notes/Pow.md",
-    "Studie/2024 Fall, Mathematics 1a/Week 1/Lecture 1 - Udsagnslogik eller proportional logic.md",
     "Attachment/Pasted image 20250930010127.png",
     "Databases/PDFs/PDF eksempel.pdf",
     "Databases/PDFs",
     "Databases/New folder",
     "Attachment/Pasted image 20250930004747.png",
-    "Studie/2025 Fall, Mechanics and Physical Modeling/2025 Fall, Mechanics and Physical Modeling.md",
     "Permanent Notes/Symboler og operatorer.md",
     "Permanent Notes/NAND operatoren.md",
     "Permanent Notes/Modstrid.md",
     "Permanent Notes/Kontraposition.md",
     "Permanent Notes/De Morgans love.md",
     "Permanent Notes/Tautologier.md",
-    "Permanent Notes/Bimplikation (hvis og kun hvis).md",
     "Permanent Notes/Implikation.md",
     "Permanent Notes/Negation.md",
     "Permanent Notes/Disjunktion (eller).md",
@@ -295,7 +271,6 @@
     "Studie/2024 Fall, Mathematics 1a/Week 1/Lecture 1 -.md",
     "Studie/2024 Fall, Mathematics 1a/Week 1",
     "Studie/2025 Fall, Mechanics and Physical Modeling/Week 1",
-    "Studie/2024 Fall, Mathematics 1a/2025 Fall, Mathematics 1a.md",
     "Templates/Template Map of Content.md",
     "Studie/2024 Fall, Mathematics 1a",
     "Studie/2025 Fall, Mechanics and Physical Modeling",

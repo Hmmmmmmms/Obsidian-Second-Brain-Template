@@ -318,8 +318,9 @@ Obsidian Git er et plugin der lader dig backup din vault til Github, så følg n
 ### AI i dine noter
 Jeg bruger selv meget AI plugins i mine noter. Mine favoritter er
 
-##
-"Text Generator"(bruger den til at skrive noter, istedet for at søge online, så skriver jeg bare f.eks. "hvad er lysets hastighed?" og så har jeg en hotkey f.eks. "ctrl + j" som så prompter openAI's modeller, og så skriver det en responds i mine noter på mit spørgsmål) God video af Sergio på det [[Youtube - How I'm Using AI WITH My Obsidian Vault]]. For at sætte det op 
+### Github Copilot
+Har opsat Github Copilot som du kender det fra Visual Studio, så den autosuggester hvad det næste er jeg skal skrive. Mega crazy. ChatGPT kan hjælpe med at sætte det op. Men du kan finde det ved at søge "Github Copilot" i Community Plugins 
+
 #### Copilot
 "Copilot" er bare en ChatGPT i dine noter, hvor du så også kan give den nogle af dine noter som kontekst og så kan den give svar. Bruger den ikke så meget endnu, men løbende når OpenAI's modeller kan tage en større kontekst så begynder jeg nok at bruge den mere og mere, som en personlig assistent(Prøvede det for et stykke tid siden, og det virkede ok. Men i fremtiden bliver det bar endnu vildere).  [[Youtube - The Free AI Tool that Knows Everything You've Written (Obsidian with AI)]] 
 
